@@ -629,7 +629,7 @@ function responseJSON(obj) {
 
             // Redirect Otomatis jika Diatur
             if (appState.redirectUrl) {
-                showToast('Mengalihkan halaman...', 'info');
+                showToast('', 'info');
                 setTimeout(() => {
                     window.location.href = appState.redirectUrl;
                 }, 1200);
